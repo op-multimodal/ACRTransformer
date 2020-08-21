@@ -1,0 +1,98 @@
+ANSWER_LEN : 16
+MID_DIM : 128
+LEARNING_RATE : 0.001
+HDF5_JSON : ../../data/result_proposal.json
+EPOCHS : 15
+FC_DROPOUT : 0.4
+OUTPUT : ./save_models
+NUM_GLIMPSE : 2
+weight_decay : 0.1
+RES_SIZE : 2048
+SENTENCE_LEN : 14
+clip_grad : 5
+BATCH_SIZE : 128
+POOLING_SIZE : 5
+save : False
+SEED : 1111
+TEXT_DIR : ../../data/dataset
+C3D_SIZE : 1024
+NUM_PROPOSAL : 6
+L_RNN_DROPOUT : 0.2
+EMB_DROPOUT : 0.1
+FEATURE_DIR : ../../data/features
+DECAY_RATE : 0.5
+topk : 35
+GLOVE_PATH : ../../data/glove/glove.6B.300d.txt
+NUM_HIDDEN : 1024
+save_num : 0
+warmup : 2000
+MIN_OCC : 1
+VIDEO_LEN : 35
+DECAY_STEPS : 7
+NUM_LAYER : 1
+MOMENTUM : 0.9
+QUESTION_TYPE : Count
+BIDIRECT : False
+GLIMPSE : 2
+VIDEO_FEAT_DIR : ../../data/features
+epoch 0, time: 44.16
+	train_loss: 177644.75, score: 19.71
+	eval score: 25.04 
+	MSE loss of evaluation: 4.66 
+epoch 1, time: 46.10
+	train_loss: 124375.02, score: 21.85
+	eval score: 20.91 
+	MSE loss of evaluation: 4.27 
+epoch 2, time: 44.30
+	train_loss: 117330.35, score: 22.69
+	eval score: 18.54 
+	MSE loss of evaluation: 4.73 
+epoch 3, time: 43.50
+	train_loss: 113560.24, score: 22.91
+	eval score: 24.59 
+	MSE loss of evaluation: 4.25 
+epoch 4, time: 41.89
+	train_loss: 109806.53, score: 23.28
+	eval score: 18.23 
+	MSE loss of evaluation: 4.34 
+epoch 5, time: 42.38
+	train_loss: 106138.20, score: 24.23
+	eval score: 17.73 
+	MSE loss of evaluation: 4.18 
+epoch 6, time: 42.42
+	train_loss: 102560.38, score: 24.49
+	eval score: 22.96 
+	MSE loss of evaluation: 4.08 
+epoch 7, time: 42.39
+	train_loss: 99389.10, score: 25.30
+	eval score: 22.96 
+	MSE loss of evaluation: 4.12 
+epoch 8, time: 42.12
+	train_loss: 96320.98, score: 25.95
+	eval score: 25.63 
+	MSE loss of evaluation: 4.20 
+epoch 9, time: 43.46
+	train_loss: 93429.29, score: 26.76
+	eval score: 24.90 
+	MSE loss of evaluation: 4.13 
+epoch 10, time: 44.56
+	train_loss: 90092.14, score: 27.63
+	eval score: 18.60 
+	MSE loss of evaluation: 4.36 
+epoch 11, time: 44.30
+	train_loss: 86209.61, score: 28.17
+	eval score: 27.66 
+	MSE loss of evaluation: 4.31 
+epoch 12, time: 42.67
+	train_loss: 84454.48, score: 28.47
+	eval score: 26.31 
+	MSE loss of evaluation: 4.10 
+epoch 13, time: 63.80
+	train_loss: 79989.14, score: 29.13
+	eval score: 20.17 
+	MSE loss of evaluation: 4.78 
+epoch 14, time: 61.62
+	train_loss: 77869.93, score: 29.88
+	eval score: 24.85 
+	MSE loss of evaluation: 4.21 
+best loss 4.08

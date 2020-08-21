@@ -1,0 +1,139 @@
+ANSWER_LEN : 16
+MID_DIM : 500
+LEARNING_RATE : 0.0095
+HDF5_JSON : ../../data/result_proposal.json
+EPOCHS : 35
+FC_DROPOUT : 0.5
+OUTPUT : ./save_models
+NUM_GLIMPSE : 2
+RES_SIZE : 2048
+SENTENCE_LEN : 16
+BATCH_SIZE : 256
+POOLING_SIZE : 5
+save : False
+SEED : 1111
+TEXT_DIR : ../../data/dataset
+C3D_SIZE : 1024
+NUM_PROPOSAL : 6
+L_RNN_DROPOUT : 0.0
+EMB_DROPOUT : 0.0
+FEATURE_DIR : ../../data/features
+topk : 35
+GLOVE_PATH : ../../data/glove/glove.6B.300d.txt
+NUM_HIDDEN : 1024
+save_num : 0
+warmup : 2000
+MIN_OCC : 1
+VIDEO_LEN : 35
+NUM_LAYER : 1
+MOMENTUM : 0.9
+QUESTION_TYPE : FrameQA
+BIDIRECT : False
+GLIMPSE : 2
+VIDEO_FEAT_DIR : ../../data/features
+epoch 0, time: 75.76
+	train_loss: 27.64, accuracy: 10.06
+	eval accuracy: 29.33 
+epoch 1, time: 72.51
+	train_loss: 5.08, accuracy: 29.22
+	eval accuracy: 38.05 
+epoch 2, time: 66.66
+	train_loss: 4.54, accuracy: 34.17
+	eval accuracy: 40.84 
+epoch 3, time: 66.39
+	train_loss: 4.24, accuracy: 38.24
+	eval accuracy: 43.35 
+epoch 4, time: 66.47
+	train_loss: 3.99, accuracy: 42.14
+	eval accuracy: 43.89 
+epoch 5, time: 66.60
+	train_loss: 3.81, accuracy: 44.37
+	eval accuracy: 47.64 
+epoch 6, time: 66.93
+	train_loss: 3.64, accuracy: 46.36
+	eval accuracy: 49.02 
+epoch 7, time: 66.82
+	train_loss: 3.51, accuracy: 48.03
+	eval accuracy: 50.57 
+epoch 8, time: 66.90
+	train_loss: 3.38, accuracy: 49.48
+	eval accuracy: 50.68 
+epoch 9, time: 66.94
+	train_loss: 3.27, accuracy: 50.61
+	eval accuracy: 51.14 
+epoch 10, time: 67.18
+	train_loss: 3.16, accuracy: 51.83
+	eval accuracy: 52.68 
+epoch 11, time: 66.87
+	train_loss: 3.07, accuracy: 53.08
+	eval accuracy: 52.59 
+epoch 12, time: 67.01
+	train_loss: 2.96, accuracy: 54.22
+	eval accuracy: 53.72 
+epoch 13, time: 67.53
+	train_loss: 2.87, accuracy: 54.93
+	eval accuracy: 53.97 
+epoch 14, time: 67.64
+	train_loss: 2.77, accuracy: 56.20
+	eval accuracy: 54.36 
+epoch 15, time: 67.37
+	train_loss: 2.67, accuracy: 57.53
+	eval accuracy: 54.33 
+epoch 16, time: 67.35
+	train_loss: 2.58, accuracy: 58.45
+	eval accuracy: 55.61 
+epoch 17, time: 66.87
+	train_loss: 2.49, accuracy: 59.50
+	eval accuracy: 54.67 
+epoch 18, time: 67.54
+	train_loss: 2.40, accuracy: 60.91
+	eval accuracy: 55.64 
+epoch 19, time: 66.27
+	train_loss: 2.33, accuracy: 61.45
+	eval accuracy: 55.92 
+epoch 20, time: 67.59
+	train_loss: 2.23, accuracy: 63.02
+	eval accuracy: 55.73 
+epoch 21, time: 67.16
+	train_loss: 2.15, accuracy: 63.85
+	eval accuracy: 56.61 
+epoch 22, time: 67.04
+	train_loss: 2.05, accuracy: 65.48
+	eval accuracy: 56.75 
+epoch 23, time: 67.74
+	train_loss: 1.97, accuracy: 66.36
+	eval accuracy: 56.58 
+epoch 24, time: 66.68
+	train_loss: 1.88, accuracy: 67.98
+	eval accuracy: 56.86 
+epoch 25, time: 67.38
+	train_loss: 1.81, accuracy: 68.77
+	eval accuracy: 56.80 
+epoch 26, time: 67.44
+	train_loss: 1.73, accuracy: 69.84
+	eval accuracy: 55.47 
+epoch 27, time: 67.38
+	train_loss: 1.64, accuracy: 71.16
+	eval accuracy: 55.80 
+epoch 28, time: 66.56
+	train_loss: 1.55, accuracy: 73.01
+	eval accuracy: 56.36 
+epoch 29, time: 67.72
+	train_loss: 1.50, accuracy: 73.86
+	eval accuracy: 56.12 
+epoch 30, time: 67.08
+	train_loss: 1.39, accuracy: 75.84
+	eval accuracy: 55.93 
+epoch 31, time: 67.10
+	train_loss: 1.32, accuracy: 77.03
+	eval accuracy: 54.32 
+epoch 32, time: 66.16
+	train_loss: 1.25, accuracy: 78.51
+	eval accuracy: 54.44 
+epoch 33, time: 67.59
+	train_loss: 1.17, accuracy: 79.85
+	eval accuracy: 54.66 
+epoch 34, time: 68.06
+	train_loss: 1.10, accuracy: 81.43
+	eval accuracy: 53.51 
+best accuracy 56.86

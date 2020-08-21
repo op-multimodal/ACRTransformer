@@ -1,0 +1,70 @@
+ANSWER_LEN : 16
+MID_DIM : 512
+LEARNING_RATE : 0.0095
+HDF5_JSON : ../../data/result_proposal.json
+EPOCHS : 12
+FC_DROPOUT : 0.282
+OUTPUT : ./save_models
+NUM_GLIMPSE : 2
+RES_SIZE : 2048
+SENTENCE_LEN : 12
+BATCH_SIZE : 128
+POOLING_SIZE : 5
+save : False
+SEED : 1111
+TEXT_DIR : ../../data/dataset
+C3D_SIZE : 1024
+NUM_PROPOSAL : 6
+L_RNN_DROPOUT : 0.282
+EMB_DROPOUT : 0.282
+FEATURE_DIR : ../../data/features
+topk : 35
+GLOVE_PATH : ../../data/glove/glove.6B.300d.txt
+NUM_HIDDEN : 2036
+save_num : 0
+warmup : 2000
+MIN_OCC : 1
+VIDEO_LEN : 35
+NUM_LAYER : 1
+MOMENTUM : 0.9
+QUESTION_TYPE : Trans
+BIDIRECT : False
+GLIMPSE : 2
+VIDEO_FEAT_DIR : ../../data/features
+epoch 0, time: 274.16
+	train_loss: 2.32, accuracy: 42.41
+	eval accuracy: 61.09 
+epoch 1, time: 275.52
+	train_loss: 1.94, accuracy: 59.28
+	eval accuracy: 66.64 
+epoch 2, time: 277.74
+	train_loss: 1.82, accuracy: 63.31
+	eval accuracy: 70.25 
+epoch 3, time: 276.85
+	train_loss: 1.71, accuracy: 67.59
+	eval accuracy: 74.42 
+epoch 4, time: 277.48
+	train_loss: 1.56, accuracy: 72.62
+	eval accuracy: 77.41 
+epoch 5, time: 275.71
+	train_loss: 1.44, accuracy: 76.40
+	eval accuracy: 79.59 
+epoch 6, time: 276.45
+	train_loss: 1.34, accuracy: 78.80
+	eval accuracy: 79.75 
+epoch 7, time: 283.93
+	train_loss: 1.26, accuracy: 80.86
+	eval accuracy: 80.36 
+epoch 8, time: 276.77
+	train_loss: 1.17, accuracy: 83.02
+	eval accuracy: 81.11 
+epoch 9, time: 279.40
+	train_loss: 1.07, accuracy: 85.06
+	eval accuracy: 81.53 
+epoch 10, time: 277.88
+	train_loss: 0.95, accuracy: 87.19
+	eval accuracy: 80.55 
+epoch 11, time: 281.51
+	train_loss: 0.83, accuracy: 89.39
+	eval accuracy: 80.30 
+best accuracy 81.53
