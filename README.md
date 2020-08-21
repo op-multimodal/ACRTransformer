@@ -15,7 +15,9 @@ PyTorch implementation of Action-Centric Relation Transformer for VideoQA.
 
 
 ### Datasets and word embeddings
-* features: Please download([Baidu Yun](https://pan.baidu.com/s/1rvhmrl36KCfHYCnggHYl5Q) with code ``be85`` and put it into ``data`` directory.
+* features: Please download([Baidu Yun](链接: https://pan.baidu.com/s/1zz2dfwsnr4G_QhD8WlBSFQ) with code ``kv8q``. 
+* first put all the things in ``data.tar.gz`` it into ``data`` directory.
+* next combine all ``feature.tar.gz``, extract them into one directory ``features``, put it under the directory ``data``
 
 ### Training on TGIF-QA
 Model is trained separately on 4 sub-tasks: ``Action,Trans,Frame,Count``, first get into corresponding directory (taking Action as an example):
